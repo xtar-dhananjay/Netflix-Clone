@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;    
+}
+
+#Main-Logo{
+    width: 175px;
+}
+
+body{
+    background-color: #000;
+}
+
+#mainHeader{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/Netflix-Background.jpg');
+    background-size: cover;
+    background-position: 100%;
+    height: 750px;
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    min-height: 500px;
+}
+
+#signinButton{
+    background: #e50914;
+}
+
+button, select, input{
+    outline: none;
+}
+select{
+    -webkit-appearance: none;
+}
+
+#menuCont{
+    width: 110px;
+    position: relative;
+}
+
+
+#menuCont::before{
+    position: absolute;
+    content: "\f57d";
+    color: white;
+    font-family: FontAwesome;
+    font-size: 12px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#menuCont::after{
+    position: absolute;
+    content: "\f0d7";
+    color: white;
+    font-family: FontAwesome;
+    font-size: 15px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#downArrow{
+    right: 10px;
+    margin-bottom: 3px;
+}
+
+
+/* Welcome titles & Search Bar */
+
+#welcomeContent{
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+    
+}
+
+
+#welcomeContent h1{
+    font-weight: 500;
+    width: 800px;
+    max-width: 100%;
+    font-size: 60px;
+
+}
+
+
+#welcomeContent h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#welcomeContent p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#SearchBox{
+    width: 750px;
+    height: 75px;
+}
+
+#SearchBox input{
+    width: calc(100% - 250px);
+    outline: none;
+}
+
+#SearchBox button{
+    width: 250px;
+    outline: none;
+    background: #e50914;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Make Responsive for Larg Screen */
+@media (max-width: 1450px) {    
+    #Main-Logo{
+        width: 160px;
+    }
+
+    #mainHeader{
+        height: 700px;
+    }
+    #SearchBox{
+        width: 725px;
+        height: 65px;
+        max-width: 90%;
+    }
+    #SearchBox button{
+        font-size: 25px;
+    }
+    #welcomeContent h1{
+        font-size: 50px;   
+        width: 600px;
+    }
+    #welcomeContent h3{
+        font-size: 20px;
+    }
+    #welcomeContent p{
+        font-size: 17px;
+    }
+}
+
+/* Make Responsive for medium Screen */
+@media (max-width: 950px){
+    #SearchBox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: fit-content;
+        width: 800px;
+    }
+    
+    #SearchBox input{
+        margin-top: 10px;
+        height: 55px;
+    }
+
+    #SearchBox button{
+        margin-top: 15px;
+        font-size: 20px;
+        width: 170px;
+        padding: 7px 10px;
+    }
+    #Main-Logo{
+        width: 140px;
+    }
+}
+
+/* Make Responsive for small Screen */
+@media (max-width: 750px){
+    #SearchBox input{
+        height: 50px;
+        width: 80%;
+    }
+
+    #welcomeContent h1{
+        font-size: 45px;
+    
+    }
+}
+
+/* Make Responsive for Extra small Screen */
+@media (max-width: 550px){
+    #mainHeader{
+        width: 100%;
+        height: 520px;
+        min-height: 520px;
+    }
+
+    #welcomeContent{
+        width: 90% !important;
+        margin-top: 30px;
+    }
+
+    #welcomeContent h1{
+        font-weight: 500;
+        width: 800px;
+        max-width: 100%;
+        font-size: 30px;
+    
+    }
+    
+    #welcomeContent h3{
+        font-size: 16px;
+    }
+    
+    #welcomeContent p{
+        font-size: 16px;    
+        padding-top: 0rem!important;
+    }
+    #signinButton{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    #menuCont{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95px;
+    }
+    #Main-Logo{
+        width: 100px;
+    }
+    #linkMainlogo{
+        margin-right: 7px;
+    }
+    .container-fluid{
+        padding: 0;
+    }
+    #SearchBox input{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
