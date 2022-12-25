@@ -9,7 +9,7 @@ Phone = +91 8368692759
 3. JavaScript
 4. Bootstrap
 
-Author Info
+#### Author Info
 1. Youtube     :   https://www.youtube.com/@xtardhananjay7647
 2. Instagram   :   https://www.linkedin.com/in/xtardhananjay/
 3. Linkedin    :   https://www.instagram.com/xtardhananjay/
