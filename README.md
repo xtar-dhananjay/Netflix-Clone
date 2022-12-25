@@ -10,6 +10,6 @@ Phone = +91 8368692759
 4. Bootstrap
 
 Author Info
-. Youtube     :   https://www.youtube.com/@xtardhananjay7647
-. Instagram   :   https://www.linkedin.com/in/xtardhananjay/
-. Linkedin    :   https://www.instagram.com/xtardhananjay/
+1. Youtube     :   https://www.youtube.com/@xtardhananjay7647
+2. Instagram   :   https://www.linkedin.com/in/xtardhananjay/
+3. Linkedin    :   https://www.instagram.com/xtardhananjay/
