@@ -26,3 +26,5 @@ allAccordion.forEach( (e, ei) => {
         });
     }
 })
+
+// This is complete now 😊👍

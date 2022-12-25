@@ -1,3 +1,0 @@
-width: 550px;
-width: 950;
-width: 1450px;
