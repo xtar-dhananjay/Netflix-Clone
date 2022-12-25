@@ -4,12 +4,12 @@ Email = xtardhananjay@gmail.com
 Phone = +91 8368692759
 
 ### Use technology in this project
-HTML
-CSS
-JavaScript
-Bootstrap
+1. HTML
+2. CSS
+3. JavaScript
+4. Bootstrap
 
 Author Info
-Youtube     :   https://www.youtube.com/@xtardhananjay7647
-Instagram   :   https://www.linkedin.com/in/xtardhananjay/
-Linkedin    :   https://www.instagram.com/xtardhananjay/
+. Youtube     :   https://www.youtube.com/@xtardhananjay7647
+. Instagram   :   https://www.linkedin.com/in/xtardhananjay/
+. Linkedin    :   https://www.instagram.com/xtardhananjay/
